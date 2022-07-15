@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IceCream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__wrapper">
+            <a class="header__logo" href=""><img src="./images/header-logo.svg" alt="logo"></a>
+            <button type="button" class="header__button" data-menu-button data-menu-open>
+                <svg width="20" height="12" aria-label="Мобильное меню">
+                    <use class="header__icon--menu" href="./images/symbol-defs-header.svg#burger"></use>
+                    <use class="header__icon--close" href="./images/symbol-defs-header.svg#close"></use>
+                </svg>
+            </button>
+            <div class="menu-container" data-menu>
+                <nav class="menu-container__nav">
+                    <ul class="site-nav">
+                        <li class="site-nav__item"><a class="site-nav__link site-nav__link--page" href="">Home</a></li>
+                        <li class="site-nav__item"><a class="site-nav__link" href="">About us</a></li>
+                        <li class="site-nav__item"><a class="site-nav__link" href="">How it’s made?</a></li>
+                        <li class="site-nav__item"><a class="site-nav__link" href="">Our products</a></li>
+                        <li class="site-nav__item"><a class="site-nav__link" href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <button type="button" class="header__button-menu">Buy now</button>
+        </div>
+
+    </header>
+    <script src="./js/menu.js"></script>
+</body>
+</html>
